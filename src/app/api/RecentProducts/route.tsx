@@ -36,7 +36,6 @@ export async function GET() {
 
   const products = itemData.map((item) => {
     console.log(typeof item.images);
-    console.log("hello");
 
     return {
       ...item,
