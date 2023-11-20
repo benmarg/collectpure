@@ -2,7 +2,6 @@ import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/20/solid";
 import type { CurrentProduct } from "src/app/api/RecentProducts/route";
 
 export default function Card({ product }: { product: CurrentProduct }) {
-  //   console.log(product);
   return (
     <li
       key={product.id}
