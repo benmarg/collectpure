@@ -40,6 +40,8 @@ export async function GET() {
     PALLADIUM: spotPrices.Spots[3]?.Ask ?? 0,
   };
 
+  //no need to sort data since response from sever should already be sorted and paginated
+  
   //add the spot prices to each item
   const products = itemData.map((item) => {
     return {
